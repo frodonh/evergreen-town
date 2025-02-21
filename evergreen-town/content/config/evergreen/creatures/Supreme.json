@@ -1,0 +1,148 @@
+{
+	"evSupreme":
+	{
+		"name" :
+		{
+			"plural" : "魁萨满",
+			"singular" : "魁萨满"
+		},
+		"advMapAmount" :
+		{
+			"max" : 10,
+			"min" : 5
+		},
+		"faction" : "evergreen",
+		"aiValue" : 934,
+		"attack" : 16,
+		"hasDoubleWeek" : true,
+        "cost" :
+		{
+			"gold" : 1000
+		},
+		"damage" :
+		{
+			"max" : 22,
+			"min" : 18 
+		},
+		"defense" : 16,
+		"fightValue" : 916,
+		"graphics" :
+		{
+			"animation" : "evergreen/battle/supreme.def",
+			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+			"map" : "evergreen/map/supreme.def",
+			"iconSmall" : "evergreen/iconsSmall/supreme.bmp",
+			"iconLarge" : "evergreen/iconsBig/supreme.bmp",
+			"timeBetweenFidgets" : 1,
+			"missile" :
+			{
+				"projectile" : "CPRZEAX.DEF",
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"attackClimaxFrame" : 8,
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+
+		"growth" : 2,
+		"hitPoints" : 90,
+		"level" : 6,
+		"shots" : 24,
+		"sound" :
+		{
+			"attack": "ZELTATTK.wav",
+			"defend": "ZELTDFND.wav",
+			"killed": "ZELTKILL.wav",
+			"move": "ZELTMOVE.wav",
+			"shoot": "ZELTSHOT.wav",
+			"wince": "ZELTWNCE.wav"
+		},
+		"speed" : 8,
+		"abilities" :
+		{
+		"shooter" :
+			{
+				"type" : "SHOOTER"
+                        },
+			"mirror" :
+			{
+				"type" : "MAGIC_MIRROR",
+				"val" : 25
+			 },
+		"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+                        
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+			},
+			{
+				"bonus" : 
+				{ 
+					"addInfo" : 1001, 
+					"subtype" : "spell.weakness", 
+					"type" : "SPELL_AFTER_ATTACK" 
+				},
+				"values" : [ 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 ]
+			},
+			{
+				"bonus" : 
+				{ 
+					"addInfo" : 1001, 
+					"subtype" : "spell.disruptingRay", 
+					"type" : "SPELL_AFTER_ATTACK" 
+				},
+				"values" : [ 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 ]
+			}
+		]
+	}
+}

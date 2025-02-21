@@ -1,0 +1,59 @@
+{
+	"evsinofein" : 
+	{
+		"class" : "evsacrificer",
+		"female" : true,
+                 "texts" :
+		{
+			"name" : "色诺芬",
+			"biography" : "人们对色诺芬知之甚少。",
+			"specialty" : 
+			{
+				"description" : "使用转世重生魔法时效果大增。",
+				"tooltip" : "魔法增强：转世重生",
+				"name" : "转世重生"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "evergreen/heroes/sinofein/spec-small.png",
+			"specialtyLarge" : "evergreen/heroes/sinofein/spec-large.png",
+			"large" : "evergreen/heroes/sinofein/portrait-large.png",
+			"small" : "evergreen/heroes/sinofein/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"resurrection"
+		],
+		"army" :
+		[
+			{ "creature" : "evHalfling", "min" : 10, "max" : 15 },
+			{ "creature" : "evDwarfBonecrusher", "min" : 6, "max" : 9 },
+			{ "creature" : "evDwarfWarrior", "min" : 4, "max" : 6}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"resurrection" : {
+					"subtype" : "spell.resurrection",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}		
+	}
+}

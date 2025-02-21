@@ -1,0 +1,73 @@
+{
+	"name" : "Evergreen",
+	"description" : "V0.99",
+	"author" : "Zeryss,Acidchalk",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "1.00",
+	"modType" : "Town",
+	"language": "chinese",
+	"chinese": {
+		"name": "树塔",
+		"description": "新城镇树塔。"
+	},
+	"factions" :
+	[
+		"config/evergreen/town/buildings.json",
+		"config/evergreen/town/faction.json",
+		"config/evergreen/town/siege.json",
+		"config/evergreen/town/spells.json",
+		"config/evergreen/town/structures.json",
+		"config/evergreen/town/puzzle.json"
+
+	],
+	"creatures" :
+	[
+		"config/evergreen/creatures/Halfling.json",
+		"config/evergreen/creatures/Brave.json",
+		"config/evergreen/creatures/BattleHalfling.json",
+        "config/evergreen/creatures/DwarfBonecrusher.json",
+		"config/evergreen/creatures/DwarfBerserker.json",
+		"config/evergreen/creatures/Shaman.json",
+		"config/evergreen/creatures/Supreme.json",
+		"config/evergreen/creatures/Silver.json",
+		"config/evergreen/creatures/Unicorn.json",		
+        "config/evergreen/creatures/Wasp.json",
+		"config/evergreen/creatures/WaspGuard.json",
+		"config/evergreen/creatures/Mountain.json",
+		"config/evergreen/creatures/Ancient.json",
+		"config/evergreen/creatures/Spriggan.json",
+        "config/evergreen/creatures/Leprechaun.json",
+        "config/evergreen/creatures/DwarfWarrior.json",
+        "config/evergreen/creatures/DwarfVeteran.json"
+
+	],
+	"heroClasses" :
+	[
+		"config/evergreen/classes/sagamore.json",
+		"config/evergreen/classes/sacrificer.json"
+
+	],
+
+	"heroes" :
+	[
+		"config/evergreen/heroes/arsai.json",
+		"config/evergreen/heroes/beldorn.json",
+		"config/evergreen/heroes/beledlen.json",
+		"config/evergreen/heroes/brunn.json",
+		"config/evergreen/heroes/bulinar.json",
+		"config/evergreen/heroes/craig.json",
+		"config/evergreen/heroes/delin.json",
+		"config/evergreen/heroes/devek.json",
+		"config/evergreen/heroes/driela.json",
+		"config/evergreen/heroes/fasur.json",
+		"config/evergreen/heroes/hignar.json",
+		"config/evergreen/heroes/narva.json",
+		"config/evergreen/heroes/ner-din.json",
+		"config/evergreen/heroes/ranin.json",
+		"config/evergreen/heroes/sinofein.json",
+		"config/evergreen/heroes/velina.json"
+		
+	],
+    "objects" : [ "config/evergreen/dwellings.json" ],
+	"spells" : [ "config/evergreen/spells/moat.json" ]
+}

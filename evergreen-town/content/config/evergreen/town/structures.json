@@ -1,0 +1,50 @@
+{
+	"evergreen" :
+	{
+		"town" :
+		{
+			"structures" :
+			{
+
+	         		"water":          { "animation" : "evergreen/town-screen/buildings/water.def",    "x" : 0,	"y" : 0,    "z" :  0 },
+				"mageGuild1":     { "animation" : "evergreen/town-screen/buildings/TBRMMAGE.def", "x" : 0,	"y" : 0,	"z" : -1, "border" : "evergreen/town-screen/buildings-border/TORMAG1.bmp",  "area" : "evergreen/town-screen/buildings-area/TZRMAG1.bmp" },
+				"mageGuild2":     { "animation" : "evergreen/town-screen/buildings/TBRMMAG2.def", "x" : 0,	"y" : 0,	"z" : -1, "border" : "evergreen/town-screen/buildings-border/TORMAG2.bmp",  "area" : "evergreen/town-screen/buildings-area/TZRMAG2.bmp" },
+				"mageGuild3":     { "animation" : "evergreen/town-screen/buildings/TBRMMAG3.def", "x" : 0,	"y" : 0,	"z" : -1, "border" : "evergreen/town-screen/buildings-border/TORMAG3.bmp",  "area" : "evergreen/town-screen/buildings-area/TZRMAG3.bmp" },
+				"mageGuild4":     { "animation" : "evergreen/town-screen/buildings/TBRMMAG4.def", "x" : 0,	"y" : 0,	"z" : -1, "border" : "evergreen/town-screen/buildings-border/TORMAG4.bmp",  "area" : "evergreen/town-screen/buildings-area/TZRMAG4.bmp" },
+				"mageGuild5":     { "animation" : "evergreen/town-screen/buildings/TBRMMAG5.def", "x" : 0,	"y" : 0,	"z" : -1, "border" : "evergreen/town-screen/buildings-border/TORMAG5.bmp",  "area" : "evergreen/town-screen/buildings-area/TZRMAG5.bmp" },
+				"tavern":         { "animation" : "evergreen/town-screen/buildings/TBRMTVRN.def", "x" : 0,	"y" : 0,	"z" : 5,  "border" : "evergreen/town-screen/buildings-border/TORTAV.bmp",   "area" : "evergreen/town-screen/buildings-area/TZRTAV.bmp" },
+				"fort":           { "animation" : "evergreen/town-screen/buildings/TBRMCSTL.def", "x" : 0,	"y" : 0,	"z" : -3, "border" : "evergreen/town-screen/buildings-border/TORCAS1.bmp",  "area" : "evergreen/town-screen/buildings-area/TZRCAS1.bmp" },
+				"citadel":        { "animation" : "evergreen/town-screen/buildings/TBRMCAS2.def", "x" : 0,	"y" : 0, 	"z" : -3, "border" : "evergreen/town-screen/buildings-border/TORCAS3.bmp",  "area" : "evergreen/town-screen/buildings-area/TZRCAS3.bmp" },
+				"castle":         { "animation" : "evergreen/town-screen/buildings/TBRMCAS3.def", "x" : 0,	"y" : 0, 	"z" : -3, "border" : "evergreen/town-screen/buildings-border/TORCAS2.bmp",  "area" : "evergreen/town-screen/buildings-area/TZRCAS2.bmp" },
+				"villageHall":    { "animation" : "evergreen/town-screen/buildings/TBRMHALL.def", "x" : 0,	"y" : 0,                  "border" : "evergreen/town-screen/buildings-border/TORHAL1.bmp",  "area" : "evergreen/town-screen/buildings-area/TZRHAL1.bmp" },
+				"townHall":       { "animation" : "evergreen/town-screen/buildings/TBRMHAL2.def", "x" : 0,	"y" : 0,                  "border" : "evergreen/town-screen/buildings-border/TORHAL2.bmp",  "area" : "evergreen/town-screen/buildings-area/TZRHAL2.bmp" },
+				"cityHall":       { "animation" : "evergreen/town-screen/buildings/TBRMHAL3.def", "x" : 0,	"y" : 0,                  "border" : "evergreen/town-screen/buildings-border/TORHAL3.bmp",  "area" : "evergreen/town-screen/buildings-area/TZRHAL3.bmp" },
+				"capitol":        { "animation" : "evergreen/town-screen/buildings/TBRMHAL4.def", "x" : 0,	"y" : 0,                  "border" : "evergreen/town-screen/buildings-border/TORHAL4.bmp",  "area" : "evergreen/town-screen/buildings-area/TZRHAL4.bmp" },
+				"marketplace":    { "animation" : "evergreen/town-screen/buildings/TBRMMARK.def", "x" : 0,	"y" : 0,	"z" : 0,  "border" : "evergreen/town-screen/buildings-border/TORMRK1.bmp",  "area" : "evergreen/town-screen/buildings-area/TZRMRK1.bmp" },
+				"resourceSilo":   { "animation" : "evergreen/town-screen/buildings/TBRMSILO.def", "x" : 0,	"y" : 0,	"z" : 1,  "border" : "evergreen/town-screen/buildings-border/TORMRK2.bmp",  "area" : "evergreen/town-screen/buildings-area/TZRMRK2.bmp" },
+				"blacksmith":     { "animation" : "evergreen/town-screen/buildings/TBRMBLAK.def", "x" : 0,	"y" : 0,	"z" : 0,  "border" : "evergreen/town-screen/buildings-border/TORAID.bmp",   "area" : "evergreen/town-screen/buildings-area/TZRAID.bmp" },
+				"special1":       { "animation" : "evergreen/town-screen/buildings/TBRMEXT1.def", "x" : 0,	"y" : 0,                  "border" : "evergreen/town-screen/buildings-border/TORXT5.bmp",   "area" : "evergreen/town-screen/buildings-area/TZT5.bmp" },
+				"horde1":         { "animation" : "evergreen/town-screen/buildings/TBRMHRD1.def", "x" : 0,	"y" : 0,                  "border" : "evergreen/town-screen/buildings-border/TORDWF1H.bmp", "area" : "evergreen/town-screen/buildings-area/TZRDWF1H.bmp", "hidden" : true },
+				"horde1Upgr":     { "animation" : "evergreen/town-screen/buildings/TBRMHRD2.def", "x" : 0,	"y" : 0,                  "border" : "evergreen/town-screen/buildings-border/TORDWF2H.bmp", "area" : "evergreen/town-screen/buildings-area/TZRDWF2H.bmp", "hidden" : true, "builds" : "horde1" },
+				"special2":       { "animation" : "evergreen/town-screen/buildings/spec.def",     "x" : 0,	"y" : 0,	"z" : 4,  "border" : "evergreen/town-screen/buildings-border/TORGAR3A.bmp", "area" : "evergreen/town-screen/buildings-area/TZRGAR3A.bmp" },
+				"special3":       { "animation" : "evergreen/town-screen/buildings/TBRMUP_5.def", "x" : 0,	"y" : 0,	"z" : 1, "border" : "evergreen/town-screen/buildings-border/TORUNI1.bmp",  "area" : "evergreen/town-screen/buildings-area/TZRUNI1.bmp" },
+				"special4":       { "animation" : "evergreen/town-screen/buildings/TBRMEXT5.def",     "x" : 0,	"y" : 0,	"z" : 4,  "border" : "evergreen/town-screen/buildings-border/TORGAR4A.bmp", "area" : "evergreen/town-screen/buildings-area/TZRGAR4A.bmp" },
+			        "grail":          { "animation" : "evergreen/town-screen/buildings/TBRMHOLY.def", "x" : 0,	"y" : 0,	"z" : 4,  "border" : "evergreen/town-screen/buildings-border/TORHOLY.bmp",  "area" : "evergreen/town-screen/buildings-area/TZRHOLY.bmp" },
+				"dwellingLvl1":   { "animation" : "evergreen/town-screen/buildings/TBRMDW_0.def", "x" : 0,	"y" : 0,	"z" : 0,  "border" : "evergreen/town-screen/buildings-border/TORCEN1A.bmp", "area" : "evergreen/town-screen/buildings-area/TZRCEN1A.bmp" },
+				"dwellingLvl2":   { "animation" : "evergreen/town-screen/buildings/TBRMDW_1.def", "x" : 0,	"y" : 0,                  "border" : "evergreen/town-screen/buildings-border/TORDWF1.bmp",  "area" : "evergreen/town-screen/buildings-area/TZRDWF1.bmp" },
+				"dwellingLvl3":   { "animation" : "evergreen/town-screen/buildings/TBRMDW_2.def", "x" : 0,	"y" : 0,                  "border" : "evergreen/town-screen/buildings-border/TORELF1.bmp", "area"  : "evergreen/town-screen/buildings-area/TZRELF1.bmp" },
+				"dwellingLvl5":   { "animation" : "evergreen/town-screen/buildings/TBRMUP_3.def", "x" : 0,	"y" : 0,	"z" : 1, "border" : "evergreen/town-screen/buildings-border/TORPEG2A.bmp", "area" : "evergreen/town-screen/buildings-area/TZRPEG2A.bmp" },
+				"dwellingLvl4":   { "animation" : "evergreen/town-screen/buildings/TBRMDW_4.def", "x" : 0,	"y" : 0,	"z" : 0,  "border" : "evergreen/town-screen/buildings-border/TORTRE1.bmp", "area"  : "evergreen/town-screen/buildings-area/TZRTRE1.bmp" },
+				"dwellingLvl6":   { "animation" : "evergreen/town-screen/buildings/TBRMSPEC.def", "x" : 0,	"y" : 0,                  "border" : "evergreen/town-screen/buildings-border/TORGAR1A.bmp", "area" : "evergreen/town-screen/buildings-area/TZRGAR1A.bmp" },
+				"dwellingLvl7":   { "animation" : "evergreen/town-screen/buildings/TBRMDW_6.def", "x" : 0,	"y" : 0,	"z" : 0,  "border" : "evergreen/town-screen/buildings-border/TORDR1AA.bmp", "area" : "evergreen/town-screen/buildings-area/TZRDR1AA.bmp" },
+				"dwellingUpLvl1": { "animation" : "evergreen/town-screen/buildings/TBRMUP_0.def", "x" : 0,	"y" : 0,	"z" : 0,  "border" : "evergreen/town-screen/buildings-border/TORCEN2A.bmp", "area" : "evergreen/town-screen/buildings-area/TZRCEN2A.bmp" },
+				"dwellingUpLvl2": { "animation" : "evergreen/town-screen/buildings/TBRMUP_1.def", "x" : 0,	"y" : 0,                  "border" : "evergreen/town-screen/buildings-border/TORDWF2.bmp", "area"  : "evergreen/town-screen/buildings-area/TZRDWF2.bmp" },
+				"dwellingUpLvl3": { "animation" : "evergreen/town-screen/buildings/TBRMUP_2.def", "x" : 0,	"y" : 0,                  "border" : "evergreen/town-screen/buildings-border/TORELF2.bmp", "area"  : "evergreen/town-screen/buildings-area/TZRELF2.bmp" },
+				"dwellingUpLvl5": { "animation" : "evergreen/town-screen/buildings/TBRMUP_3.def", "x" : 0,	"y" : 0,	"z" : 1,  "border" : "evergreen/town-screen/buildings-border/TORPEG2A.bmp", "area" : "evergreen/town-screen/buildings-area/TZRPEG2A.bmp" },
+				"dwellingUpLvl4": { "animation" : "evergreen/town-screen/buildings/TBRMUP_4.def", "x" : 0,	"y" : 0,	"z" : 0,  "border" : "evergreen/town-screen/buildings-border/TORTRE2.bmp", "area"  : "evergreen/town-screen/buildings-area/TZRTRE2.bmp" },
+				"dwellingUpLvl6": { "animation" : "evergreen/town-screen/buildings/TBRMEXT0.def", "x" : 0,	"y" : 0,	"z" : 2,  "border" : "evergreen/town-screen/buildings-border/TORGAR2A.bmp", "area" : "evergreen/town-screen/buildings-area/TZRGAR2A.bmp" },
+				"dwellingUpLvl7": { "animation" : "evergreen/town-screen/buildings/TBRMUP_6.def", "x" : 0,	"y" : 0,	"z" : 0,  "border" : "evergreen/town-screen/buildings-border/TORDR2AA.bmp", "area" : "evergreen/town-screen/buildings-area/TZRDR2AA.bmp" }
+			}
+		}
+	}
+}

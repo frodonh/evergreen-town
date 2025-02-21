@@ -1,0 +1,60 @@
+{
+	"evergreen" :
+	{
+		"town" :
+		{
+			"siege" :
+			{
+				"shooter" : "evShaman",
+				"imagePrefix" : "evergreen/siege/sgeg",
+				"towerIconSmall" : "evergreen/icons/towerSmall",
+				"towerIconLarge" : "evergreen/icons/towerLarge",
+				"gate" :
+				{
+					"arch" : { "x" : 425, "y" : 130 },
+					"gate" : { "x" : 340, "y" : 230 }
+				},
+				"moat" :
+				{
+					"bank" : { "x" : 406, "y" : 77 },
+					"moat" : { "x" : 406, "y" : 77 }
+				},
+				"static" :
+				{
+					"background" : { "x" : 604, "y" : 58 },
+					"bottom" : { "x" : 490, "y" : 285 },
+					"top" : { "x" : 504, "y" : 97 }
+				},
+				"towers" :
+				{
+					"bottom" :
+					{
+						"battlement" : { "x" : 570, "y" : 450 },
+						"creature" : { "x" : 360, "y" : 285 },
+						"tower" : { "x" : 570, "y" : 450 }
+					},
+					"keep" :
+					{
+						"battlement" : { "x" : 0, "y" : 0 },
+						"creature" : { "x" : 530, "y" : -100 },
+						"tower" : { "x" : 0, "y" : 0 }
+					},
+					"top" :
+					{
+						"battlement" : { "x" : 561, "y" : 5 },
+						"creature" : { "x" : 339, "y" : -160 },
+						"tower" : { "x" : 561, "y" : 5 }
+					}
+				},
+				"walls" :
+				{
+					"bottom" : { "x" : 560, "y" : 455 },
+					"bottomMid" : { "x" : 460, "y" : 280 },
+					"upper" : { "x" : 485, "y" : 12 },
+					"upperMid" : { "x" : 415, "y" : 78 }
+				}
+			}
+		}
+	}
+}
+

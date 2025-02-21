@@ -1,0 +1,117 @@
+{
+	"evWaspGuard":
+	{
+		"name" :
+		{
+			"plural" : "兵蜂",
+			"singular" : "兵蜂"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 16,
+			 "min" : 10
+		},
+		"faction" : "evergreen",
+		"aiValue" : 497,
+		"attack" : 12,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 300
+		},
+		"damage" :
+		{
+			 "max" : 10,
+			 "min" : 7
+		},
+		"defense" : 13,
+		"fightValue" : 461,
+		"horde" : 3,
+		"graphics" :
+		{
+			"animation" : "evergreen/battle/waspguard.def",
+			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+			"map" : "evergreen/map/waspguard.def",
+			"iconSmall" : "evergreen/iconsSmall/waspguard.bmp",
+			"iconLarge" : "evergreen/iconsBig/waspguard.bmp",
+			"timeBetweenFidgets" : 1
+                },
+
+		"growth" : 5,
+		"hitPoints" : 35,
+		"level" : 4,
+		"sound" :
+		{
+			"attack": "DFLYATTK.wav",
+			"defend": "DFLYDFND.wav",
+			"killed": "DFLYKILL.wav",
+			"move": "DFLYMOVE.wav",
+			"wince": "DFLYWNCE.wav"
+		},
+		"speed" : 10,
+		"abilities" :
+		{
+			"canFly" : 
+			{
+				"type" : "FLYING"
+			},
+		    "dispellHelpful" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.dispelHelpful",
+				"val" : 100
+			},
+			"castWeakness" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.weakness",
+				"val" : 100
+			}	
+		},
+		"stackExperience" :
+ 
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "RETURN_AFTER_STRIKE"
+				},
+				"values" : [ false, false, false, true, true, true, true, true, true, true ]
+			}
+		]	
+	}
+}

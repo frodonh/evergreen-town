@@ -1,0 +1,110 @@
+{
+	"spriggan":
+	{
+		"name" :
+		{
+			"plural" : "树妖",
+			"singular" : "树妖"
+		},
+		"advMapAmount" :
+		{
+			 "min" : 16,
+			 "max" : 25
+		},
+		"special":true,
+		"faction" : "neutral",
+		"aiValue" : 1000,
+		"attack" : 5,
+		"cost" :
+		{
+			"gold" : 140
+		},
+		"damage" :
+		{
+			"max" : 10,
+			"min" : 10
+		},
+		"defense" : 5,
+		"fightValue" : 1000,
+		"graphics" :
+		{
+			"animation" : "evergreen/battle/Spriggan.def",
+//			"map"        : "evergreen/map/Spriggan.def",
+			"iconSmall" : "evergreen/iconsSmall/Spriggan.bmp",
+			"iconLarge" : "evergreen/iconsBig/Spriggan.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.30,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile" : "CPRZEAX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"growth" : 9,
+		"hasDoubleWeek": false,
+		"hitPoints" : 50,
+		"level" : 0,
+		"shots" : 24,
+		"sound" :
+		{
+			
+ 		},
+		"speed" : 5,
+		"abilities" :
+		{
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 5
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"enchant" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"canCast" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.protectEarth",
+				"val" : 3
+			},
+			"noMind":
+			{
+                   "type": "MIND_IMMUNITY"
+			},
+			"shooter" :
+			{
+				"type" : "SHOOTER"
+			},
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+			}
+		}
+	}
+}

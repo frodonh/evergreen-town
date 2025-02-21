@@ -1,0 +1,53 @@
+{
+	"evdriela" : 
+	{
+		"class" : "evsagamore",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "德瑞拉",
+			"biography" : "人们对德瑞拉知之甚少。",
+			"specialty" :
+			{
+				"description" : "在侦察术上每级得到5%的额外奖励。",
+				"tooltip" : "技能加成：侦察术",
+				"name" : "侦察术"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "evergreen/heroes/driela/spec-small.png",
+			"specialtyLarge" : "evergreen/heroes/driela/spec-large.png",
+			"large" : "evergreen/heroes/driela/portrait-large.png",
+			"small" : "evergreen/heroes/driela/portrait-small.png"
+		},
+		"army" :
+		[
+			{ "creature" : "evHalfling", "min" : 10, "max" : 15 },
+			{ "creature" : "evDwarfBonecrusher", "min" : 6, "max" : 9 },
+			{ "creature" : "evDwarfWarrior", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "scouting"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"scouting" : {
+					"type" : "SIGHT_RADIUS",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}	
+	}
+}

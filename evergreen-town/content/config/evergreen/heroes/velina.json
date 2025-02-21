@@ -1,0 +1,46 @@
+{
+	"evvelina" : 
+	{
+		"class" : "evsagamore",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "维琳娜",
+			"biography" : "人们对维琳娜知之甚少。", 
+			"specialty" :
+			{
+				"description" : "达到4级以后提高青蜂或兵蜂的攻击力与防御力。",
+				"tooltip" : "生物强化：青蜂",
+				"name" : "青蜂"
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "evergreen/heroes/velina/spec-small.png",
+			"specialtyLarge" : "evergreen/heroes/velina/spec-large.png",
+			"large" : "evergreen/heroes/velina/portrait-large.png",
+			"small" : "evergreen/heroes/velina/portrait-small.png"
+		},
+		"army" :
+		[
+			{ "creature" : "evHalfling", "min" : 10, "max" : 15 },
+			{ "creature" : "evDwarfBonecrusher", "min" : 6, "max" : 9 },
+			{ "creature" : "evDwarfWarrior", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "scouting"
+			}
+		],
+		"specialty" : {
+			"creature" : "evWasp"
+		}			
+	}
+}

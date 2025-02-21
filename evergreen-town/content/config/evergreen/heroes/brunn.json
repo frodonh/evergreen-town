@@ -1,0 +1,53 @@
+{
+	"evbrunn" :
+	{
+		"class" : "evsagamore",
+		"female" : false,
+
+		"texts" :
+		{
+			"name" : "布鲁恩",
+			"biography" : "人们对布鲁恩知之甚少。",
+			"specialty" :
+			{
+				"description" : "为王国每天额外提供1水晶。",
+				"tooltip" : "每天+1水晶",
+				"name" : "+1水晶"
+			}
+		},
+		"images" :
+		{
+	 		
+			"specialtySmall" : "evergreen/heroes/brunn/spec-small.png",
+			"specialtyLarge" : "evergreen/heroes/brunn/spec-large.png",
+			"large" : "evergreen/heroes/brunn/portrait-large.png",
+			"small" : "evergreen/heroes/brunn/portrait-small.png"
+		},
+		"army" :
+		[
+			{ "creature" : "evHalfling", "min" : 10, "max" : 15 },
+			{ "creature" : "evDwarfBonecrusher", "min" : 6, "max" : 9 },
+			{ "creature" : "evDwarfWarrior", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"crystal" : {
+					"subtype" : "resource.crystal",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
+			}
+		}	
+	}
+}

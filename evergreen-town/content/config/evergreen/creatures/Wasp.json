@@ -1,0 +1,118 @@
+{
+	"evWasp":
+	{
+		"name" :
+		{
+			"plural" : "青蜂",
+			"singular" : "青蜂"
+		},
+		"advMapAmount" :
+		{
+			"max" : 20,
+			"min" : 10
+		},
+		"faction" : "evergreen",
+		"aiValue" : 452,
+		"attack" : 10,
+		"cost" :
+		{
+			"gold" : 250
+		},
+		"damage" :
+		{
+			"max" : 10,
+			"min" : 7
+		},
+		"defense" : 10,
+		"fightValue" : 466,
+                "horde" : 3,
+		"graphics" :
+		{
+			"animation" : "evergreen/battle/wasp.def",
+			"map" : "evergreen/map/wasp.def",
+			"iconSmall" : "evergreen/iconsSmall/wasp.bmp",
+			"iconLarge" : "evergreen/iconsBig/wasp.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.25,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"growth" : 5,
+		"hitPoints" : 30,
+		"level" : 4,
+		"upgrades":
+		[
+			"evWaspGuard"
+		],
+		"sound" :
+		{
+			"attack": "DFLYATTK.wav",
+			"defend": "DFLYDFND.wav",
+			"killed": "DFLYKILL.wav",
+			"move": "DFLYMOVE.wav",
+			"wince": "DFLYWNCE.wav" 
+ 		},
+		"speed" : 8,
+		"abilities" :
+		{
+			"canFly" : 
+			{
+				"type" : "FLYING"
+			},
+		    "dispellHelpful" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.dispelHelpful",
+				"val" : 100
+		    }
+	    },
+		"stackExperience" :
+ 
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "RETURN_AFTER_STRIKE"
+				},
+				"values" : [ false, false, false, true, true, true, true, true, true, true ]
+			}
+		]
+	}
+}

@@ -1,0 +1,51 @@
+{
+	"evfasur" : 
+	{
+		"class" : "evsacrificer",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "法索",
+			"biography" : "人们对法索知之甚少。", 
+			"specialty" :
+			{
+				"description" : "达到2级以后提高碎骨者或狂战士的攻击力与防御力。",
+				"tooltip" : "生物强化：碎骨者",
+				"name" : "碎骨者"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "evergreen/heroes/fasur/spec-small.png",
+			"specialtyLarge" : "evergreen/heroes/fasur/spec-large.png",
+			"large" : "evergreen/heroes/fasur/portrait-large.png",
+			"small" : "evergreen/heroes/fasur/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"magicArrow"
+		],
+		"army" :
+		[
+			{ "creature" : "evDwarfBonecrusher", "min" : 1, "max" : 9 },
+			{ "creature" : "evDwarfBonecrusher", "min" : 1, "max" : 9 },
+			{ "creature" : "evDwarfBonecrusher", "min" : 1, "max" : 6}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		],
+			"specialty" : {
+			"creature" : "evDwarfBonecrusher"
+		}				
+	}
+}

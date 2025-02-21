@@ -1,0 +1,175 @@
+{
+	"evBattleHalfling":
+	{
+		"name" :
+		{
+			"plural" : "半身人战士",
+			"singular" : "半身人战士"
+		},
+		"advMapAmount" :
+		{
+			"max" : 30,
+			"min" : 20
+		},
+		"faction" : "evergreen",
+		"aiValue" : 87,
+		"attack" : 5,
+		"cost" :
+		{
+			"gold" : 50
+		},
+		"damage" :
+		{
+			"max" : 3,
+			"min" : 3
+		},
+		"defense" : 4,
+		"fightValue" : 92,
+		"graphics" :
+		{
+			"animation" : "evergreen/battle/battle.def",
+			"map" : "evergreen/map/battle.def",
+			"iconSmall" : "evergreen/iconsSmall/battle.bmp",
+			"iconLarge" : "evergreen/iconsBig/battle.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"attackClimaxFrame" : 8,
+				"projectile": "PHALF.DEF",
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			},
+			
+		},
+
+		"growth" : 15,
+		"hitPoints" : 6,
+		"horde" : 10,
+              	"level" : 1,
+		"shots" : 24,
+		"sound" :
+		{
+			"attack": "HALFATTK.wav",
+			"defend": "HALFDFND.wav",
+			"killed": "HALFKILL.wav",
+			"move": "HALFMOVE.wav",
+			"shoot": "HALFSHOT.wav",
+			"wince": "HALFWNCE.wav"
+		},
+		"speed" : 6,
+		"abilities" :   //something here is wrong, I have no idea what.
+		{
+			"canshoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"always lucky" :
+			{
+				"type" : "LUCK",
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX"
+			},
+			"no melee penalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+            },
+			"extraAttack" :
+			{
+				"type": "ADDITIONAL_ATTACK",
+				"val" : 1,
+				"effectRange": "ONLY_DISTANCE_FIGHT"
+			}
+		},
+		"stackExperience" :
+ 
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin", //min
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax", //max
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ENCHANTED",
+					"subtype" : "spell.slayer",
+					"addInfo" : 3
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 2, 2, 3, 3 ]	
+			},
+			{
+				"bonus" :
+				{
+					"type" : "FEARLESS"
+				},
+				"values" : [ false, false, false, false, false, false, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : "creature.goblin"
+				},
+				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : "creature.hobgoblin"
+				},
+				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
+			}
+		]
+	}
+}

@@ -1,0 +1,119 @@
+{
+	"evDwarfBerserker":
+	{
+		"name" :
+		{
+			"plural" : "狂战士",
+			"singular" : "狂战士"
+		},
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 16
+		},
+		"faction" : "evergreen",
+		"aiValue" : 198,
+		"attack" : 7,
+		"hasDoubleWeek" : true,
+         "cost" :
+		{
+			"gold" : 160
+		},
+		"damage" :
+		{
+			"max" : 5,
+			"min" : 2
+		},
+		"defense" : 6,
+		"fightValue" : 160,
+		"horde" : 6,
+		"graphics" :
+		{
+			"animation" : "evergreen/battle/berserker.def",
+			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+			"map" : "evergreen/map/berserker.def",
+			"iconSmall" : "evergreen/iconsSmall/berserker.bmp",
+			"iconLarge" : "evergreen/iconsBig/berserker.bmp",
+			"timeBetweenFidgets" : 1,
+
+			},
+
+		"growth" : 9,
+		"hitPoints" : 20,
+                "level" : 2,
+		"shots" : 12,
+		"sound" :
+		{
+			"attack": "DWRFATTK.wav",
+			"defend": "DWRFDFND.wav",
+			"killed": "DWRFKILL.wav",
+			"move": "DWRFMOVE.wav",
+			"wince": "DWRFWNCE.wav"
+		},
+		"speed" : 5,
+		"abilities":
+		{
+			 "reduceDefence":
+			{	
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val": 15
+                         },
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 15
+			 }
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "MAGIC_RESISTANCE"
+				},
+				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+			}
+		]
+	}
+}

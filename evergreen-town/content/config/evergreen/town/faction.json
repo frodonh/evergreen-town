@@ -1,0 +1,115 @@
+{
+	"evergreen" : {
+		"alignment" : "good",
+		"boat" : "boatCastle",
+		"creatureBackground" : { "120px" : "evergreen/creature-bg-120px", "130px" : "evergreen/creature-bg-130px" },
+		"name" : "树塔",
+		"nativeTerrain" : "grass",
+		"town" :
+		{
+			"musicTheme" : ["music/evergreen/theme"],
+			"defaultTavern" : 5,
+			"tavernVideo" : "TAVERN.BIK",
+			"guildBackground" : "TPMAGE.bmp",
+			"townBackground": "evergreen/town-screen/background",
+			"guildWindow": "evergreen/town-screen/mage-guild",
+			"hallBackground": "evergreen/thback/Forest7.bmp",
+			"hallSlots":
+			[
+				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
+				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "special1", "special2" ] ],
+				[ [ "special3" ], [ "special4" ], [ "horde1", "horde1Upgr" ] ],
+				[ [ "dwellingLvl1", "dwellingUpLvl1" ], [ "dwellingLvl2", "dwellingUpLvl2" ], [ "dwellingLvl3","dwellingUpLvl3" ] ],
+				[ [ "dwellingLvl4", "dwellingUpLvl4" ], [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl7", "dwellingUpLvl7" ] ]
+			],
+			"creatures" :
+			[
+				[ "evHalfling", "evBrave" ],
+				[ "evDwarfBonecrusher", "evDwarfBerserker" ],
+				[ "evDwarfWarrior", "evDwarfVeteran"],
+				[ "evWasp", "evWaspGuard"],
+				[ "evSilver", "evUnicorn" ],
+				[ "evShaman", "evSupreme" ],
+                [ "evMountain", "evAncient" ]
+			],
+			"moatAbility":"evergreenMoat",
+			"horde" : [ 1 , -1],
+			"mageGuild" : 5,
+			"primaryResource" : "crystal",
+			"buildingsIcons" : "evergreen/town-hall.def",
+			"icons" :
+			{
+				"village" : {
+					"normal" : {
+						"small" : "evergreen/icons/hall-small.bmp",
+						"large" : "evergreen/icons/hall-big.bmp"
+					},
+					"built" : {
+						"small" : "evergreen/icons/hall-builded-small.bmp",
+						"large" : "evergreen/icons/hall-builded-big.bmp"
+					}
+				},
+				"fort" : {
+					"normal" : {
+						"small" : "evergreen/icons/fort-small.bmp",
+						"large" : "evergreen/icons/fort-big.bmp"
+					},
+					"built" : {
+						"small" : "evergreen/icons/fort-builded-small.bmp",
+						"large" : "evergreen/icons/fort-builded-big.bmp"
+					}
+				}
+			},
+
+			"mapObject" : {
+				"filters" : {
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ]
+				},
+				"templates" : {
+					"capitol" : { "animation" : "evergreen/adventure-map/town-capitol.def" },
+					"castle" : { "animation" : "evergreen/adventure-map/town-castle.def" },
+					"citadel" : { "animation" : "evergreen/adventure-map/town-castle.def" },
+					"fort" : { "animation" : "evergreen/adventure-map/town-castle.def" },
+					"village" : { "animation" : "evergreen/adventure-map/town-village.def" }
+				}
+			},
+			"names" :
+			[
+				"德瓦林",
+                "巴林",
+                "基林",
+                "菲林",
+                "多林",
+                "诺林",
+                "欧林",
+                "格罗林",
+                "托林",
+			],
+			"tavern" :
+			{
+				"knight"       : 4,
+				"cleric"       : 4,
+				"ranger"       : 4,
+				"druid"        : 4,
+				"alchemist"    : 4,
+				"wizard"       : 4,
+				"demoniac"     : 4,
+				"heretic"      : 4,
+				"deathknight"  : 4,
+				"necromancer"  : 4,
+				"warlock"      : 4,
+				"overlord"     : 4,
+				"barbarian"    : 4,
+				"battlemage"   : 4,
+				"beastmaster"  : 4,
+				"witch"        : 4,
+				"planeswalker" : 4,
+				"elementalist" : 4,
+				"evsagamore"    : 5,
+				"evsacrificer"    : 5,
+			}
+		}
+	}
+}

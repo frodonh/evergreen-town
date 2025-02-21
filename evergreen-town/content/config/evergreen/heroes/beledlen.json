@@ -1,0 +1,56 @@
+{
+	"evbeledlen" : 
+	{
+		"class" : "evsagamore",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "贝尔多伦",
+			"biography" : "人们对贝尔多伦知之甚少。",
+			"specialty" : 
+			{
+				"description" : "使用连锁闪电魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
+				"tooltip" : "魔法增强：连锁闪电",
+				"name" : "连锁闪电"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "evergreen/heroes/beledlen/spec-small.png",
+			"specialtyLarge" : "evergreen/heroes/beledlen/spec-large.png",
+			"large" : "evergreen/heroes/beledlen/portrait-large.png",
+			"small" : "evergreen/heroes/beledlen/portrait-small.png"
+		},
+		"spellbook" :
+		[
+			"chainLightning"		
+               ],
+               "army" :
+		[
+			{ "creature" : "evHalfling", "min" : 10, "max" : 15 },
+			{ "creature" : "evDwarfBonecrusher", "min" : 6, "max" : 9 },
+			{ "creature" : "evDwarfWarrior", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			},
+			{
+				"level" : "basic",
+				"skill" : "luck"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"chainLightning" : {
+					"subtype" : "spell.chainLightning",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}		
+	}
+}

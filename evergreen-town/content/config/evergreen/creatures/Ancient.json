@@ -1,0 +1,144 @@
+{
+	"evAncient":
+	{
+		"name" :
+		{
+			"plural" : "远古血污怪",
+			"singular" : "远古血污怪"
+		},
+		"advMapAmount" :
+		{
+			"max" : 8,
+			"min" : 3
+		},
+		"faction" : "evergreen",
+		"aiValue" : 4000,
+		"attack" : 24,
+		"cost" :
+		{
+			"gold" : 5000,
+			"crystal" : 3
+		},
+		"damage" :
+		{
+			"max" : 50,
+			"min" : 50
+		},
+		"defense" : 24,
+		"fightValue" : 4635,
+		"graphics" :
+		{
+			"animation" : "evergreen/battle/ancient.def",
+			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+			"map" : "evergreen/map/ancient.def",
+			"iconSmall" : "evergreen/iconsSmall/ancient.bmp",
+			"iconLarge" : "evergreen/iconsBig/ancient.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 200,
+		"level" : 7,
+		"sound" :
+		{
+			"attack": "YBMHATTK.wav",
+			"defend": "YBMHDFND.wav",
+			"killed": "YBMHKILL.wav",
+			"move": "YBMHMOVE.wav",
+			"wince": "YBMHWNCE.wav"
+                     
+		},
+		"speed" : 13,
+		"abilities":
+		{
+			"KING1" :
+			{
+				"type" : "KING",
+				"val" : 0
+			},
+			"attackAll" : 
+			{
+				"type": "ATTACKS_ALL_ADJACENT"
+			},
+			"canFly" : 
+			{
+				"type" : "FLYING"
+			},
+		    "dragon": 
+		    {
+				"type": "DRAGON_NATURE"
+		    },
+
+			"noRetaliation" : 
+			{
+				"type" : "BLOCKS_RETALIATION"
+			}
+		},
+		"stackExperience" :
+ 
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HP_REGENERATION"
+				},
+				"values" : [ 0, 0, 0, 0, 50, 50, 50, 50, 50, 50]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ADDITIONAL_ATTACK"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "FEARLESS"
+				},
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+			}
+		]
+	}
+}

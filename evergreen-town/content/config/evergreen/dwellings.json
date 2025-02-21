@@ -1,0 +1,79 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"evShack" : {
+				"name" : "窝棚",
+				"creatures" : [[ "evHalfling" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "evergreen/map/dwellings/dwelling-1.def",
+						"mask" : [ "VVVV", "VVVV", "VBBV", "BABB" ]
+					}
+				}
+			},
+			"evCottage" : {
+				"name" : "矮人茅舍",
+				"creatures" : [[ "evDwarfBonecrusher" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "evergreen/map/dwellings/dwelling-2.def",
+						"mask" : [ "VVV", "BBB", "ABB" ]
+					}
+				}
+			},
+			"evBelvedere" : {
+				"name" : "前哨",
+				"creatures" : [[ "evDwarfWarrior" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "evergreen/map/dwellings/dwelling-3.def",
+						"mask" : [ "VVV", "VBB", "BAB" ]
+					}
+				}
+			},
+			"evHive" : {
+				"name" : "蜂巢",
+				"creatures" : [[ "evWasp" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "evergreen/map/dwellings/dwelling-4.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			},
+			"evAncientAltar" : {
+				"name" : "远古祭坛",
+				"creatures" : [[ "evSilver" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "evergreen/map/dwellings/dwelling-5.def",
+						"mask" : [ "VVVV", "VVVV", "VVBB", "VBAB" ]
+					}
+				}
+			},
+			"evRunicCircle" : {
+				"name" : "如尼石阵",
+				"creatures" : [[ "evShaman" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "evergreen/map/dwellings/dwelling-6.def",
+						"mask" : [ "VVVV", "VVVV", "VBBB", "VBAB" ]
+					}
+				}
+			},
+			"evMountainLair" : {
+				"name" : "高山崖穴",
+				"creatures" : [[ "evMountain" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "evergreen/map/dwellings/dwelling-7.def",
+						"mask" : [ "VVV", "VVV", "BAB" ]
+					}
+				}
+			}
+		}		
+	}
+}

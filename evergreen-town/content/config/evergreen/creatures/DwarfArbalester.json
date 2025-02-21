@@ -1,0 +1,140 @@
+{
+	"evDwarArbalester":
+	{
+		"name" :
+		{
+			"plural" : "战弩手",
+			"singular" : "战弩手"
+		},
+		"advMapAmount" :
+		{
+			"max" : 16,
+			"min" : 10
+		},
+		"faction" : "evergreen",
+		"aiValue" : 498,
+		"attack" : 12,
+		"hasDoubleWeek" : true,
+                "cost" :
+		{
+			"gold" : 400
+		},
+		"damage" :
+		{
+			"max" : 10,
+			"min" : 8
+		},
+		"defense" : 10,
+		"fightValue" : 488,
+		"horde" : 6,
+		"graphics" :
+		{
+			"animation" : "evergreen/battle/Drbalester.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "evergreen/map/Drbalester.def",
+			"iconSmall" : "evergreen/iconsSmall/Drbalester.bmp",
+			"iconLarge" : "evergreen/iconsBig/Drbalester.bmp",
+			"timeBetweenFidgets" : 1,
+			"missile" :
+			{
+				"projectile" : "PELFX.DEF",
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"attackClimaxFrame" : 8,
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			},
+		},
+
+		"growth" : 4,
+		"hitPoints" : 15,
+                "level" : 4,
+		"shots" : 32,
+		"sound" :
+		{
+			"attack": "HCRSATTK.wav",
+			"defend": "HCRSDFND.wav",
+			"killed": "HCRSKILL.wav",
+			"move": "HCRSMOVE.wav",
+			"shoot": "HCRSSHOT.wav",
+			"wince": "HCRSWNCE.wav"
+		},
+		"speed" : 9,
+		"abilities" :
+		{
+		"shooter" :
+			{
+				"type" : "SHOOTER"
+			},
+		      "freeshooting" :	
+			{
+				"type" : "FREE_SHOOTING"
+                        },
+			"noPenalty" : 
+			{
+				"type" : "NO_WALL_PENALTY"
+			},
+			"noDistancePenalty" :
+			{
+				"type" : "NO_DISTANCE_PENALTY"
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "MAGIC_RESISTANCE"
+				},
+				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+			}
+		]
+	}
+}

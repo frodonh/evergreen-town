@@ -1,0 +1,46 @@
+{
+	"evbeldorn" :
+	{
+		"class" : "evsagamore",
+		"female" : false,
+		
+		"texts" :
+		{
+			"name" : "贝尔多恩",
+			"biography" : "人们对贝尔多恩知之甚少。",
+			"specialty" :
+			{
+				"description" : "达到5级以后提高银色飞马兽或银色独角兽的攻击力与防御力。",
+				"tooltip" : "生物强化：银色飞马兽",
+				"name" : "银色飞马兽"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "evergreen/heroes/beldorn/spec-small.png",
+			"specialtyLarge" : "evergreen/heroes/beldorn/spec-large.png",
+			"large" : "evergreen/heroes/beldorn/portrait-large.png",
+			"small" : "evergreen/heroes/beldorn/portrait-small.png"
+		},
+                "army" :
+		[
+			{ "creature" : "evHalfling", "min" : 10, "max" : 15 },
+			{ "creature" : "evDwarfBonecrusher", "min" : 6, "max" : 9 },
+			{ "creature" : "evDwarfWarrior", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			}
+		],
+		"specialty" : {
+			"creature" : "evSilver"
+		}		
+	}
+}

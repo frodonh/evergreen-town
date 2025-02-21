@@ -1,0 +1,43 @@
+{
+	"evarsai" :
+	{
+		"class" : "evsagamore",
+		"female" : true,
+
+		
+		"texts" :
+		{
+			"name" : "阿尔赛",
+			"biography" : "人们对阿尔赛知之甚少。",
+			"specialty" :
+			{
+				"description" : "达到6级以后提高青萨满或魁萨满的攻击力与防御力。",
+				"tooltip" : "生物强化：青萨满",
+				"name" : "青萨满"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "evergreen/heroes/arsai/spec-small.png",
+			"specialtyLarge" : "evergreen/heroes/arsai/spec-large.png",
+			"large" : "evergreen/heroes/arsai/portrait-large.png",
+			"small" : "evergreen/heroes/arsai/portrait-small.png"
+		},
+                "army" :
+		[
+			{ "creature" : "evHalfling", "min" : 10, "max" : 15 },
+			{ "creature" : "evDwarfBonecrusher", "min" : 6, "max" : 9 },
+			{ "creature" : "evDwarfWarrior", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "scouting"
+			}
+		],
+		"specialty" : {
+			"creature" : "evShaman"
+		}		
+	}
+}

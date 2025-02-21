@@ -1,0 +1,46 @@
+{
+	"evdelin" :
+	{
+		"class" : "evsacrificer",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "德林",
+			"biography" : "人们对德林知之甚少。",
+			"specialty" :
+			{
+				"description" : "达到1级以后提高半身人或半身人勇者的攻击力与防御力。",
+				"tooltip" : "生物强化：半身人",
+				"name" : "半身人"
+			}
+		}, 
+		"images" :
+		{
+			"specialtySmall" : "evergreen/heroes/delin/spec-small.png",
+			"specialtyLarge" : "evergreen/heroes/delin/spec-large.png",
+			"large" : "evergreen/heroes/delin/portrait-large.png",
+			"small" : "evergreen/heroes/delin/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"haste"
+		],
+		"army" :
+		[
+			{ "creature" : "evHalfling", "min" : 10, "max" : 15 },
+			{ "creature" : "evHalfling", "min" : 6, "max" : 9 },
+			{ "creature" : "evHalfling", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			}
+		],
+		"specialty" : {
+			"creature" : "evHalfling"
+		}			
+	}
+}
