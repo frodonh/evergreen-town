@@ -87,18 +87,16 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
 			},
@@ -128,8 +126,8 @@
 			{
 				"bonus" : 
 				{ 
-					"addInfo" : 1001, 
-					"subtype" : "spell.weakness", 
+					"addInfo" : [ 1, 1],
+					"subtype" : "weakness", 
 					"type" : "SPELL_AFTER_ATTACK" 
 				},
 				"values" : [ 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 ]
@@ -137,8 +135,8 @@
 			{
 				"bonus" : 
 				{ 
-					"addInfo" : 1001, 
-					"subtype" : "spell.disruptingRay", 
+					"addInfo" : [ 1, 1], 
+					"subtype" : "disruptingRay", 
 					"type" : "SPELL_AFTER_ATTACK" 
 				},
 				"values" : [ 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 ]

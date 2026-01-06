@@ -14,8 +14,7 @@
 						"wood" : 5,
 						"ore" : 5,
 						"gold" : 2000
-					},
-					"id" : 0
+					}
 				},
 				"mageGuild2" :
 				{
@@ -30,9 +29,7 @@
 						"crystal" : 4,
 						"gems" : 4,
 						"gold" : 1000
-					},
-					"id" : 1,
-					"upgrades" : "mageGuild1"
+					}
 				},
 				"mageGuild3" :
 				{
@@ -47,9 +44,7 @@
 						"crystal" : 6,
 						"gems" : 6,
 						"gold" : 1000
-					},
-					"id" : 2,
-					"upgrades" : "mageGuild2"
+					}
 				},
 				"mageGuild4" : 
 				{
@@ -64,9 +59,7 @@
 						"crystal" : 8,
 						"gems" : 8,
 						"gold" : 1000
-					},
-					"id" : 3,
-					"upgrades" : "mageGuild3"
+					}
 				},
 				"mageGuild5" :
 				{
@@ -81,9 +74,7 @@
 						"crystal" : 10,
 						"gems" : 10,
 						"gold" : 1000
-					},
-					"id" : 4,
-					"upgrades" : "mageGuild4"
+					}
 				},
 				"tavern" :
 				{
@@ -93,8 +84,7 @@
 					{
 						"wood" : 5,
 						"gold" : 500
-					},
-					"id" : 5
+					}
 				},
 				"fort" :
 				{
@@ -105,8 +95,7 @@
 						"wood" : 20,
 						"ore" : 20,
 						"gold" : 5000
-					},
-					"id" : 7
+					}
 				},
 				"citadel" :
 				{
@@ -116,9 +105,7 @@
 					{
 						"ore" : 5,
 						"gold" : 2500
-					},
-					"id" : 8,
-					"upgrades" : "fort"
+					}
 				},
 				"castle" :
 				{
@@ -129,15 +116,12 @@
 						"wood" : 10,
 						"ore" : 10,
 						"gold" : 5000
-					},
-					"id" : 9,
-					"upgrades" : "citadel"
+					}
 				},
 				"villageHall" :
 				{
 					"name" : "议事堂",
 					"description" : "议事堂可以让你购买城镇建筑，并每天向你提供500个金币。",
-					"id" : 10,
 					"mode" : "auto"
 				},
 				"townHall" :
@@ -148,7 +132,6 @@
 					{
 						"gold" : 2500
 					},
-					"id" : 11,
 					"requires" : [ "tavern" ],
 					"upgrades" : "villageHall"
 				},
@@ -161,7 +144,6 @@
 						"gold" : 5000
 					},
 					"requires" : [ "allOf", [ "mageGuild1" ], [ "blacksmith" ], [ "marketplace" ] ],
-					"id" : 12,
 					"upgrades" : "townHall"
 				},
 				"capitol" :
@@ -172,7 +154,6 @@
 					{
 						"gold" : 10000
 					},
-					"id" : 13,
 					"requires" : [ "castle" ],
 					"upgrades" : "cityHall"
 				},
@@ -184,8 +165,7 @@
 					{
 						"wood" : 5,
 						"gold" : 500
-					},
-					"id" : 14
+					}
 				},
 				"resourceSilo" :
 				{
@@ -197,8 +177,7 @@
 						"gold" : 5000
 					},
 					"produce": { "crystal": 1 },
-					"requires" : [ "marketplace" ],
-					"id" : 15
+					"requires" : [ "marketplace" ]
 				},
 				"blacksmith" :
 				{
@@ -209,8 +188,7 @@
 						"wood" : 5,
 						"gold" : 500
 					},
-					"warMachine" : "ballista",
-					"id" : 16
+					"warMachine" : "ballista"
 				},
 				"horde1" :
 				{
@@ -219,7 +197,6 @@
 					"cost" : {
 						"gold" : 1000
 					},
-					"id" : 18,
 					"upgrades" : "dwellingLvl2"
 				},
 				"horde1Upgr" :
@@ -229,7 +206,6 @@
 					"cost" : {
 						"gold" : 1000
 					},
-					"id" : 19,
 					"upgrades" : "dwellingUpLvl2",
 					"requires" : [ "horde1" ],
 					"mode" : "auto"
@@ -258,8 +234,7 @@
 							}
 						]
 					},
-					"requires" :["allOf", ["fort"], ["mageGuild1"] ],
-					"id" : 17
+					"requires" :["allOf", ["fort"], ["mageGuild1"] ]
 				},
 				"special2" :
 				{
@@ -278,8 +253,7 @@
 								"primary" : { "spellpower" : 1 }
 							}
 						]
-					},
-					"id" : 21
+					}
 				},
                 "special3" : 
 				{
@@ -299,8 +273,7 @@
 							"val": 2
 						}
 					],
-					"upgrades" : "tavern",
-					"id" : 22
+					"upgrades" : "tavern"
 				},	
 				 "special4" : 
 				{
@@ -320,16 +293,12 @@
 								"heroExperience" : 1000
 							}
 						]
-					},
-					"id" : 23
+					}
 				},	
                 "grail" :
 				{
 					"description" : "秘术凝晶使每周的生物产量提高50%，每天为你的王国额外提供5000个金币。",
-					"name" : "秘术凝晶",
-					"id" : 26,
-					"mode" : "grail",
-					"produce": { "gold": 5000 }
+					"name" : "秘术凝晶"
 				},
 				"dwellingLvl1" :
 				{
@@ -341,8 +310,7 @@
 						"wood" : 5,
 						"ore" : 5
 					},
-					"requires" : [ "fort" ],
-					"id" : 30
+					"requires" : [ "fort" ]
 				},
 				"dwellingLvl2" :
 				{
@@ -354,8 +322,7 @@
 						"wood" : 5,
 						"ore" : 5
 					},
-					"requires" :["fort"] ,
-					"id" : 31
+					"requires" :["fort"]
 				},
 				"dwellingLvl3" :
 				{
@@ -368,8 +335,7 @@
 						"ore" : 5,
                                                 "gems" : 5
 					},
-					"requires" :["allOf", ["dwellingLvl1"], ["fort"] ],
-					"id" : 32
+					"requires" :["allOf", ["dwellingLvl1"], ["fort"] ]
 				},
 				"dwellingLvl4" :
 				{
@@ -380,8 +346,7 @@
 						"gold" : 2000,
 						"wood" : 10
 					},
-					"requires" : [ "allOf", ["dwellingLvl2"], ["dwellingLvl3"], ["fort"], ["blacksmith"] ],
-					"id" : 33
+					"requires" : [ "allOf", ["dwellingLvl2"], ["dwellingLvl3"], ["fort"], ["blacksmith"] ]
 				},
 				"dwellingLvl5" :
 				{
@@ -397,8 +362,7 @@
 						"mercury" : 5,
 						"crystal" : 2
 					},
-					"requires" : [ "allOf",["dwellingLvl3"], ["dwellingLvl4"], ["dwellingLvl3"], ["fort"] ],
-					"id" : 34
+					"requires" : [ "allOf",["dwellingLvl3"], ["dwellingLvl4"], ["dwellingLvl3"], ["fort"] ]
 				},
 				"dwellingLvl6" :
 				{
@@ -411,8 +375,7 @@
 						"ore" : 10,
 						"sulfur" : 5
 					},
-					"requires" : [ "allOf", ["dwellingLvl4"], ["dwellingLvl5"],["mageGuild1"], ["fort"] ],
-					"id" : 35
+					"requires" : [ "allOf", ["dwellingLvl4"], ["dwellingLvl5"],["mageGuild1"], ["fort"] ]
 				},
 				"dwellingLvl7" :
 				{
@@ -424,8 +387,7 @@
 						"ore"  : 10,
 						"crystal" : 15
 					},
-					"requires" : [ "allOf",[ "dwellingLvl6" ], ["fort"], ["mageGuild2"] ],
-					"id" : 36
+					"requires" : [ "allOf",[ "dwellingLvl6" ], ["fort"], ["mageGuild2"] ]
 				},
 				"dwellingUpLvl1" :
 				{
@@ -436,7 +398,6 @@
 						"gold" : 1000,
 						
 					},
-					"id" : 37,
 					"requires" :   ["fort"],
 					"upgrades" : "dwellingLvl1"
 				},
@@ -450,7 +411,6 @@
 						"wood" : 10,
 						"ore"  : 5,
 					},
-					"id" : 38,
 					"requires" :   ["fort"],
 					"upgrades" : "dwellingLvl2"
 				},
@@ -464,7 +424,6 @@
 						"wood" : 5,
 						"ore" : 5,
 					},
-					"id" : 39,
 					"requires" :   [ "allOf", ["fort"],["dwellingUpLvl1"] ],		
 					"upgrades" : "dwellingLvl3"
 				},
@@ -477,8 +436,7 @@
 						"gold" : 3000,
 						"wood" : 10
 					},
-					"id" : 40,
-                                        "requires" :  [ "allOf", ["dwellingUpLvl3"],["fort"] ],
+                    "requires" :  [ "allOf", ["dwellingUpLvl3"],["fort"] ],
 					"upgrades" : "dwellingLvl4"
 				},
 				"dwellingUpLvl5" :
@@ -494,7 +452,6 @@
 						"gems" : 5
 						
 					},
-					"id" : 41,
 					"requires" : [ "allOf", ["dwellingLvl6"], ["fort"]],
 					"upgrades" : "dwellingLvl5"
 				},
@@ -509,7 +466,6 @@
                         "sulfur" : 5,
 						"crystal" : 5
 					},
-					"id" : 42,
 					"requires" :  [ "allOf", ["dwellingUpLvl5"],["mageGuild2"], ["fort"] ],
 					"upgrades" : "dwellingLvl6"
 				},
@@ -526,7 +482,6 @@
                         "sulfur" : 10,
 						"crystal" : 10
 					},
-					"id" : 43,
 					"requires" :  [ "allOf", ["dwellingUpLvl4"],["mageGuild3"], ["fort"] ],
 					"upgrades" : "dwellingLvl7"
 				}

@@ -7,7 +7,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "evergreen/map/dwellings/dwelling-1.def",
-						"mask" : [ "VVVV", "VVVV", "VBBV", "BABB" ]
+						"mask" : [ "VVVV", "VVVV", "VVBV", "VVBA" ]
 					}
 				}
 			},
@@ -17,7 +17,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "evergreen/map/dwellings/dwelling-2.def",
-						"mask" : [ "VVV", "BBB", "ABB" ]
+						"mask" : [ "VVV", "VBB", "VAB" ]
 					}
 				}
 			},
@@ -27,7 +27,7 @@
 				"templates" : {
 					"default" : {	
 						"animation" : "evergreen/map/dwellings/dwelling-3.def",
-						"mask" : [ "VVV", "VBB", "BAB" ]
+						"mask" : [ "VVV", "VBB", "VAB" ]
 					}
 				}
 			},
@@ -37,7 +37,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "evergreen/map/dwellings/dwelling-4.def",
-						"mask" : [ "VVV", "VVV", "VAB" ]
+						"mask" : [ "VVV", "VVV", "VAV" ]
 					}
 				}
 			},
@@ -48,7 +48,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "evergreen/map/dwellings/dwelling-5.def",
-						"mask" : [ "VVVV", "VVVV", "VVBB", "VBAB" ]
+						"mask" : [ "VVVV", "VVVV", "VVBB", "VVAV" ]
 					}
 				}
 			},
@@ -59,7 +59,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "evergreen/map/dwellings/dwelling-6.def",
-						"mask" : [ "VVVV", "VVVV", "VBBB", "VBAB" ]
+						"mask" : [ "VVVV", "VVVV", "VVBB", "VVBA" ]
 					}
 				}
 			},
@@ -70,7 +70,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "evergreen/map/dwellings/dwelling-7.def",
-						"mask" : [ "VVV", "VVV", "BAB" ]
+						"mask" : [ "VVV", "VVV", "VBA" ]
 					}
 				}
 			}

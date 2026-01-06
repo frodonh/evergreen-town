@@ -100,7 +100,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL",
 					"valueType" : "BASE_NUMBER"
 				},
@@ -109,7 +109,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL",
 					"valueType" : "BASE_NUMBER"
 				},
@@ -142,15 +142,17 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.slayer",
-					"addInfo" : 3
+					"subtype" : "slayer",
+					"val" : 3
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 2, 2, 3, 3 ]	
 			},
 			{
 				"bonus" :
 				{
-					"type" : "FEARLESS"
+					"type" : "FEARFUL",
+					"valueType" : "INDEPENDENT_MIN",
+					"val" : 20
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},

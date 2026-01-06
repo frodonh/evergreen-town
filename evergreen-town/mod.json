@@ -1,10 +1,19 @@
 {
 	"name" : "Evergreen",
-	"description" : "V0.99",
+	"description" : "Evergreen town.",
 	"author" : "Zeryss,Acidchalk",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.00",
+	"version" : "1.0.1",
 	"modType" : "Town",
+ 	"compatibility" :
+	{
+		"min" : "1.7.0"
+	},
+    "changelog" :
+    {
+        "1.0.1"    : [ "Works with vcmi-1.7" ],
+		"1.0.0"    : [ "Initial release with 2 Ash templates"]
+    },
 	"language": "chinese",
 	"chinese": {
 		"name": "树塔",
