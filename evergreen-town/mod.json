@@ -3,7 +3,7 @@
 	"description" : "Evergreen town.",
 	"author" : "Zeryss,Acidchalk",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.0.1",
+	"version" : "1.0.2",
 	"modType" : "Town",
  	"compatibility" :
 	{
@@ -11,6 +11,7 @@
 	},
     "changelog" :
     {
+		"1.0.2"    : [ "English translation" ],
         "1.0.1"    : [ "Works with vcmi-1.7" ],
 		"1.0.0"    : [ "Initial release with 2 Ash templates"]
     },
@@ -18,6 +19,13 @@
 	"chinese": {
 		"name": "树塔",
 		"description": "新城镇树塔。"
+	},
+	"english": {
+		"name": "Evergreen town",
+		"description": "Another nature-oriented town with magical creatures",
+		"translations": [
+			"config/evergreen/english.json"
+		]
 	},
 	"factions" :
 	[
